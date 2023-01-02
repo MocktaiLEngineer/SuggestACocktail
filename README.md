@@ -7,9 +7,9 @@ Given a list of ingredients, you get a list of suggestions of what cocktail you 
 ## What cocktail can I make
 
 ### Description
-As a cocktail drinker too lazy to go to the shops for more ingredients
-I want to know what cocktails I can make with the ingredients I have at home
-So that I can enjoy a beverage without having to leave the house.
+As a cocktail drinker who is too lazy to go to the shops in search of ingredients,
+I want to know what cocktails I can make with the ingredients I have at home -
+so that I can enjoy a beverage without having to leave the house.
 
 ### Technical Description
 • Input: The application can be invoked with a comma separated list of
