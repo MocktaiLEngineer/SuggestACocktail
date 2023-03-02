@@ -11,11 +11,6 @@ def fake_input():
 
 
 def test_possible_cocktails_from_ingredients(fake_input):
-    """
-    GIVEN a user who isn't logged in
-    WHEN the user tries to access a page that they do not have access to
-    THEN check if the user is being redirected to the sign in page instead
-    """
     fake_input.return_value = ['7-up', 'Salt']
     assert gatherPossibleDrinksForEachIngredient(fake_input.return_value) == \
         ['69 Special', 'Apple Slammer', 'Radler', 'Tequila Slammer', 'Egg-Nog - Classic Cooked', 'Lassi Khara', 'Microwave Hot Cocoa', 'Salty Dog']
